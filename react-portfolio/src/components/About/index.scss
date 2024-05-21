@@ -1,0 +1,64 @@
+.container.about-page {
+    display: flex;
+    justify-content: space-between; /* Ensures space between the text and image */
+    align-items: center; /* Aligns items at the center of the container */
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+
+    // Target the <a> tag within .text-zone that contains the FontAwesomeIcon
+.text-zone a {
+    // Increase the font size to scale up the FontAwesomeIcon
+    font-size: 30px; // Adjust this value as needed to make the icon bigger
+  
+    // Optional: Add display block or inline-block if the icon doesn't resize as expected
+    display: inline-block;
+
+    &:hover svg {
+        color: #ffd700;
+    }
+  }
+  
+  // If you specifically want to target only the FontAwesome icons within .text-zone
+  .text-zone .fa-linkedin {
+    font-size: 30px; // Adjust this value as needed
+  
+    // Optional: Ensure the icon's display property is set for proper scaling
+    display: inline-block;
+  }
+  
+  
+}
+
+.text-zone {
+    flex: 1; /* Allows the text zone to grow and take up space */
+    padding-right: 20px; /* Adds some padding between the text and the image */
+}
+
+.sid-face {
+    flex: 1; /* Allows the image container to grow and take up space */
+    display: flex;
+    justify-content: flex-end; /* Aligns the image to the end (right side) of its container */
+    padding-left: 20px; /* Adds some padding between the text and the image */
+    margin-right: 160px; /* Moves the container (and thus the image inside it) a bit to the left */
+}
+
+.sid-face img {
+    max-width: 100%; /* Ensures the image is responsive and does not overflow its container */
+    height: auto; /* Maintains the image's aspect ratio */
+}
+
+@media (max-width: 768px) {
+    .container.about-page {
+        flex-direction: column;
+        align-items: center; /* Centers the items on smaller screens */
+    }
+
+    .text-zone, .sid-face {
+        flex: none; /* Prevents flex-grow, making the layout more predictable on small screens */
+        padding: 1; /* Resets padding for a stacked layout */
+    }
+
+    .sid-face {
+        justify-content: center; /* Centers the image horizontally */
+        padding-top: 20px; /* Adds space between the text and the image */
+    }
+}

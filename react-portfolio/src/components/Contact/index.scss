@@ -1,0 +1,103 @@
+.contact-page {
+  display: flex;
+  justify-content: center;
+  align-items: start; // Align items at the start of the container
+  padding: 20px; // Add padding as needed
+}
+
+.content-flex {
+  display: flex;
+  justify-content: space-between; // Space between the form and Calendly widget
+  align-items: flex-start; // Align items at the start
+  width: 100%; // Take up full width of the container
+}
+
+.text-zone {
+  flex: 2; // Takes up twice as much space as the Calendly widget
+  margin: 0 10px; // Add margin for spacing
+}
+
+.calendly-widget-container {
+  flex: 1; // Takes up half the space of the contact form
+  margin: 0 10px; // Add margin for spacing
+  min-width: 160px; // Adjust the minimum width if necessary to ensure usability
+}
+
+@media (max-width: 768px) {
+  .content-flex {
+      flex-direction: column; // Stack them on smaller screens
+
+      .text-zone, .calendly-widget-container {
+          margin: 10px 0; // Adjust margin for vertical layout
+          width: auto; // Ensure full width on small screens
+      }
+  }
+}
+  
+ul {
+  padding: 0;
+  margin: 0;
+
+  li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-bottom: 10px;
+    opacity: 0;
+    overflow: hidden;
+    display: block;
+    clear: both;
+    position: relative;
+    animation: fadeInUp 2s 2s;
+    animation-fill-mode: forwards;
+  }
+
+  li.half {
+    width: 49%;
+    margin-left: 2%;
+    float: left;
+    clear: none;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+input[type='text'],
+input[type='email'] {
+  width: 100%;
+  border: 0;
+  background: #115173;
+  height: 50px;
+  font-size: 16px;
+  color: #fff;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  border: 0;
+  background: #115173;
+  height: 150px; // Adjusted to ensure consistency in instructions
+  font-size: 16px;
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.flat-button {
+    color: #ffd700;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid #ffd700;
+    border-radius: 4px;
+    background: 0 0;
+    text-transform: uppercase;
+    text-align: center;
+    margin-right: 10px;
+    float: right; // Ensured to keep only one float property
+}
