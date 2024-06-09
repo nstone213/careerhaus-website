@@ -4,7 +4,6 @@ import './index.scss';
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import { LayerGroup } from 'react-leaflet';
-import Logo from './Logo'
 import Loader from 'react-loaders';
 import backgroundImage from '../../assets/images/dalletoday.png';
 
@@ -42,7 +41,7 @@ const Home = () => {
                 <h2>Landing dream jobs, one student at a time.</h2>
                 <Link to="/contact" className='flat-button'>APPLY HERE</Link>
             </div>
-            <Logo />
+            
         </div>
         <Loader type="line-scale-pulse-out" />
         </>
