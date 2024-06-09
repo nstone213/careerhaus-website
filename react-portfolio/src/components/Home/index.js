@@ -9,7 +9,7 @@ import backgroundImage from '../../assets/images/dalletoday.png';
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = ['w', 'e', 'l', 'c','o', 'm', 'e', ' ', 't', 'o', ' ']
-    const jobArray = ['C', 'a', 'r', 'e', 'e', 'r', 'h', 'a', 'u', 's', '.']
+    const jobArray = ['c', 'a', 'r', 'e', 'e', 'r', 'h', 'a', 'u', 's', '.']
 
     useEffect(() => {
         const timer = setTimeout(() => {
