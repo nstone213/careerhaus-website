@@ -37,7 +37,7 @@ const Home = () => {
                 idx={22} />
                 </h1>
                 <h2>landing dream jobs, one student at a time.</h2>
-                <Link to="/contact" className='flat-button'>APPLY HERE</Link>
+                <a href="https://oyd2f7a1rby.typeform.com/to/VxLPHrlk" className='flat-button'>APPLY HERE</a>
             </div>
             
         </div>
