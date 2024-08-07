@@ -69,7 +69,7 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="calendly-widget-container" ref={calendlyRef}>
-                        <div className="calendly-inline-widget" data-url="https://calendly.com/nbaronstone" style={{ minWidth: '320px', height: '630px' }}></div>
+                        <div className="calendly-inline-widget" data-url="https://calendly.com/sid-careerhaus" style={{ minWidth: '320px', height: '630px' }}></div>
                     </div>
                 </div>
             </div>
