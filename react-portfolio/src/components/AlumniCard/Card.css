@@ -1,0 +1,30 @@
+.card-total {
+    display: flex;
+    align-items: center;      /* Centers items horizontally */
+    flex-direction: column;   /* Stacks items vertically */
+    justify-content: center;  /* Centers items vertically */
+    text-align: center;
+    height: 100vh;            /* Ensures the container takes up full viewport height */
+    margin: 0 auto;           /* Ensures the container itself is centered if it has a specific width */
+}
+
+.card-image {
+    width: 250px;              /* Set a width for the image */
+    height: 250px;             /* Set the height equal to the width */
+    border-radius: 50%;        /* This makes the image a circle */
+    object-fit: cover;         /* Ensures the image covers the circle without distortion */
+}
+
+.card-title {
+    color: white;
+    font-size: 32px;
+}
+
+.card-description {
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.card-button {
+    font-size: 30px;
+}

@@ -1,9 +1,12 @@
 import React from 'react';
 import './index.scss';
+import { Card } from '../AlumniCard/Card';
 
 const Program = () => {
   return (
-    <div>Hello</div>
+    <div className="program-page">
+      <Card />
+    </div>
   );
 };
 
