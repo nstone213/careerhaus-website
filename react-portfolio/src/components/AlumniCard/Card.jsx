@@ -5,7 +5,7 @@ import Loader from 'react-loaders';
 export const Card = ({ image, name, description, linkedinUrl, className }) => {
     return (
         <>
-            <div className={`card-total ${className}`}>
+            <div className='card-total'>
                 <div className="card-container">
                     <img src={image} alt={`${name} Image`} className="card-image" draggable="false"/>
                     <h1 className="card-title">

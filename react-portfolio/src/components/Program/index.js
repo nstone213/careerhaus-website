@@ -12,20 +12,24 @@ const Program = () => {
      <div className="program-page">
         <h1 className="program-alumni-header">program alumni</h1>
         <h2 className="cohort-1-header">cohort 1</h2>
-        <Card
-          image={Aabha_Muley} 
-          name="Aabha Muley" 
-          description="University of Georgia" 
-          linkedinUrl="https://www.linkedin.com/in/aabha-muley/" 
-          className="card11"
-        />
-        <Card
-          image={Ravnoor_Gujral} 
-          name="Ravnoor Gujral" 
-          description="Georgia Institute of Technology" 
-          linkedinUrl="https://www.linkedin.com/in/ravnoorgujral/" 
-          className="card12"
-        />
+        <div className="row1">
+          <div className="card11">
+            <Card
+              image={Aabha_Muley} 
+              name="Aabha Muley" 
+              description="University of Georgia" 
+              linkedinUrl="https://www.linkedin.com/in/aabha-muley/"
+            />
+          </div>
+          <div className="card12">
+            <Card
+              image={Ravnoor_Gujral} 
+              name="Ravnoor Gujral" 
+              description="Georgia Institute of Technology" 
+              linkedinUrl="https://www.linkedin.com/in/ravnoorgujral/" 
+            />
+          </div>
+        </div>
       </div>
       <Loader type="line-scale-pulse-out"/>
     </>

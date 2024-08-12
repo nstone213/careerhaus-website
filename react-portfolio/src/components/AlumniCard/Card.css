@@ -39,12 +39,3 @@
     margin-top: 0;            /* Remove top margin */
 }
 
-.card11 {
-    margin-left: 200px; /* This should now correctly move the card to the left */
-    margin-top: 70px;
-}
-
-.card12 {
-    margin-left: 550px; /* This should now correctly move the card to the left */
-    margin-top: -863px;
-}
