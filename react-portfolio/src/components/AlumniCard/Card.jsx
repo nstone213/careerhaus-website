@@ -1,11 +1,11 @@
 import React from 'react';
 import './Card.css';
-import Loader from 'react-loaders'
+import Loader from 'react-loaders';
 
-export const Card = ({ image, name, description, linkedinUrl }) => {
+export const Card = ({ image, name, description, linkedinUrl, className }) => {
     return (
         <>
-            <div className="card-total">
+            <div className={`card-total ${className}`}>
                 <div className="card-container">
                     <img src={image} alt={`${name} Image`} className="card-image" draggable="false"/>
                     <h1 className="card-title">
