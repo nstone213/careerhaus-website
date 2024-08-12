@@ -16,13 +16,18 @@
         color: #ffd700;
     }
   }
-  
+
+  .sidInformation {
+    font-size: 15px;
+  }
+
   // If you specifically want to target only the FontAwesome icons within .text-zone
   .text-zone .fa-linkedin {
     font-size: 30px; // Adjust this value as needed
   
     // Optional: Ensure the icon's display property is set for proper scaling
     display: inline-block;
+    margin-left: -40px;
   }
   
   

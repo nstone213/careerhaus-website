@@ -30,7 +30,7 @@ const About = () => {
                             idx={15}
                         />
                     </h1>
-                    <p>
+                    <p className="sidInformation">
                     Guided & spearheaded by Sid Balaga, The Careerhaus Fellowship stands as an 
                     esteemed program tailored for high school & early-college students, providing 
                     them with a pathway to enter illustrious careers and realize their professional 

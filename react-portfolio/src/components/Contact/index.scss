@@ -10,3 +10,10 @@
     width: auto; // Ensure full width on small screens
   }
 }
+
+.total-container {
+  display: flex;
+  justify-content: center; /* Centers items horizontally */
+  align-items: center; /* Centers items vertically */
+  height: 100vh; /* Full viewport height (optional) */
+}
