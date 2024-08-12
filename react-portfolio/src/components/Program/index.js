@@ -2,7 +2,7 @@ import React from 'react';
 import './index.scss';
 import { Card } from '../AlumniCard/Card';
 import Loader from 'react-loaders'
-import Nicholas_Stone from '/Users/nbaronstone/Documents/GitHub/careerhaus-website/react-portfolio/src/components/AlumniCard/AlumniPhotos/Nicholas_Stone_image.jpeg';
+import Nicholas_Stone from '../Program/AlumniPhotos/Nicholas_Stone_image.jpeg';
 
 const Program = () => {
   return (
