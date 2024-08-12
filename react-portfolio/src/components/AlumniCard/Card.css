@@ -18,13 +18,20 @@
 .card-title {
     color: white;
     font-size: 32px;
+    margin-bottom: 5px; /* Decrease bottom margin */
+}
+
+.card-title a {
+    color: inherit; /* Inherit the color from the parent (white) */
+    text-decoration: none; /* Remove underline */
+}
+
+.card-title a:hover {
+    text-decoration: none; /* Optional: Underline on hover */
 }
 
 .card-description {
     color: whitesmoke;
     font-size: 18px;
-}
-
-.card-button {
-    font-size: 30px;
+    margin-top: 0; /* Remove top margin */
 }
