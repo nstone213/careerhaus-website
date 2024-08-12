@@ -1,6 +1,5 @@
 import React from 'react';
 import './Card.css';
-import Loader from 'react-loaders';
 
 export const Card = ({ image, name, description, linkedinUrl, className }) => {
     return (
@@ -16,7 +15,6 @@ export const Card = ({ image, name, description, linkedinUrl, className }) => {
                     <p className="card-description">{description}</p>
                 </div>
             </div>
-            <Loader type="line-scale-pulse-out"/>
         </>
     );
 };

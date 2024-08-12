@@ -18,10 +18,15 @@
 
 .card-title {
     color: white;
-    text-align: center;
     font-size: 32px;
-    margin-bottom: 5px;       /* Decrease bottom margin */
+    margin-bottom: 5px;
+    white-space: normal;     /* Allows the text to wrap onto the next line */
+    word-wrap: break-word;   /* Ensures long words will break if needed */
+    text-align: center;      /* Center-align the text */
+    width: 100%;             /* Make the title take full width of the card */
+    max-width: 250px;        /* Set a maximum width to enforce wrapping */
 }
+
 
 .card-title a {
     color: inherit;           /* Inherit the color from the parent (white) */
