@@ -11,6 +11,10 @@ import Stanley_Yin from '../AlumniCard/AlumniPhotos/StanleyYin.png';
 import Neha_Gurram from '../AlumniCard/AlumniPhotos/NehaGurram.png';
 import Jonas_Freck from '../AlumniCard/AlumniPhotos/JonasFreck.png';
 import Aditi_Satghare from '../AlumniCard/AlumniPhotos/AditiSatghare.png';
+import Pablo from '../AlumniCard/AlumniPhotos/PabloRendon-Mendoza.png';
+import Wilver from '../AlumniCard/AlumniPhotos/WilverMariano.png';
+import Akash from '../AlumniCard/AlumniPhotos/AkashGokhale.png';
+import Varun from '../AlumniCard/AlumniPhotos/Varun.png';
 
 
 const Program = () => {
@@ -74,7 +78,41 @@ const Program = () => {
         description: "Innovation Academy",
         linkedinUrl: "https://www.linkedin.com/in/aditisatghare"
     },
-];
+  ];
+  const cohort4Cards = [
+    {
+        image: Pablo,
+        name: "Pablo Rendon-Mendoza",
+        description: "Baruch College",
+        linkedinUrl: "http://www.linkedin.com/in/pablorendon"
+    },
+    {
+        image: Wilver,
+        name: "Wilver Mariano",
+        description: "Baruch College",
+        linkedinUrl: "http://www.linkedin.com/in/wilver-mariano-2a59941b4"
+    },
+    {
+        image: Akash,
+        name: "Akash Gokhale",
+        description: "University of Georgia",
+        linkedinUrl: "http://www.linkedin.com/in/akash-gokhale1"
+    },
+    {
+        image: Nicholas_Stone,
+        name: "Nicholas Stone",
+        description: "Georgia Institute of Technology",
+        linkedinUrl: "https://www.linkedin.com/in/nicholasbaronstone/"
+    },
+  ];
+  const cohort5Cards = [
+    {
+        image: Varun,
+        name: "Varun Vijay",
+        description: "Georgia Institute of Technology",
+        linkedinUrl: "https://www.linkedin.com/in/thevarunvijay/"
+    },
+  ];
 
     return (
         <>
@@ -87,6 +125,13 @@ const Program = () => {
                 </div>
                 <div className="third">
                 <CardRow cards={cohort3Cards} />
+                </div>
+                <h2 className="cohort-2-header">cohort 2</h2>
+                <div className="fourth">
+                  <CardRow cards={cohort4Cards} />
+                </div>
+                <div className="fifth">
+                  <CardRow cards={cohort5Cards} />
                 </div>
             </div>
         </>
