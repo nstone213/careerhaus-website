@@ -15,6 +15,13 @@ import Pablo from '../AlumniCard/AlumniPhotos/PabloRendon-Mendoza.png';
 import Wilver from '../AlumniCard/AlumniPhotos/WilverMariano.png';
 import Akash from '../AlumniCard/AlumniPhotos/AkashGokhale.png';
 import Varun from '../AlumniCard/AlumniPhotos/Varun.png';
+import Summer from '../AlumniCard/AlumniPhotos/SummerFan.jpeg';
+import Adi from '../AlumniCard/AlumniPhotos/AdityaDeb.png';
+import Yash from '../AlumniCard/AlumniPhotos/YashChawla.png';
+import Anjali from '../AlumniCard/AlumniPhotos/AnjaliMohan.png';
+import Arya from '../AlumniCard/AlumniPhotos/AryaUpadhyay.png';
+import Alice from '../AlumniCard/AlumniPhotos/AliceLu.png';
+import Sid from '../AlumniCard/AlumniPhotos/SidSidSid.jpeg';
 
 
 const Program = () => {
@@ -44,7 +51,6 @@ const Program = () => {
             linkedinUrl: "https://www.linkedin.com/in/rohansrivatsa/"
         },
     ];
-
     const cohort2Cards = [
       {
           image: Raaga_Sarraff,
@@ -113,6 +119,52 @@ const Program = () => {
         linkedinUrl: "https://www.linkedin.com/in/thevarunvijay/"
     },
   ];
+  const cohort6Cards = [
+    {
+        image: Anjali,
+        name: "Anjali Mohan",
+        description: "Innovation Academy",
+        linkedinUrl: "http://www.linkedin.com/in/anjalimohan1213"
+    },
+    {
+        image: Adi,
+        name: "Aditya Deb",
+        description: "Georgia Institute of Technology",
+        linkedinUrl: "https://www.linkedin.com/in/aditya-deb/"
+    },
+    {
+        image: Summer,
+        name: "Summer Fan",
+        description: "Northview High School",
+        linkedinUrl: "https://www.linkedin.com/in/summer-fan/"
+    },
+    {
+        image: Yash,
+        name: "Yash Chawla",
+        description: "Kennesaw State University Alum",
+        linkedinUrl: "https://www.linkedin.com/in/yashchawla1/"
+    },
+  ];
+  const cohort7Cards = [
+    {
+        image: Arya,
+        name: "Arya Upadhyay",
+        description: "Northview High School",
+        linkedinUrl: "https://www.linkedin.com/in/arya-upadhyay/"
+    },
+    {
+        image: Sid,
+        name: "Siddharth Boorla",
+        description: "Northview High School",
+        linkedinUrl: "https://www.linkedin.com/in/siddharthboorla/"
+    },
+    {
+        image: Alice,
+        name: "Alice Lu",
+        description: "Baruch College",
+        linkedinUrl: "https://www.linkedin.com/in/alicelu11"
+    },
+];
 
     return (
         <>
@@ -132,6 +184,13 @@ const Program = () => {
                 </div>
                 <div className="fifth">
                   <CardRow cards={cohort5Cards} />
+                </div>
+                <h2 className="cohort-3-header">cohort 3</h2>
+                <div className="sixth">
+                  <CardRow cards={cohort6Cards} />
+                </div>
+                <div className="seventh">
+                  <CardRow cards={cohort7Cards} />
                 </div>
             </div>
         </>
