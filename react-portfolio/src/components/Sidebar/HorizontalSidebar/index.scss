@@ -1,0 +1,29 @@
+.nav-bar {
+    background: #181818;
+    width: 1500px;
+    height: 9vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    display: flex; /* Added to make the logo and link sit next to each other */
+    align-items: center; /* Align items vertically in the center */
+    overflow-y: auto;
+}
+
+.logophoto {
+    margin-top: 4px;
+    margin-left: 7px;
+    width: 60px;
+    height: auto;
+}
+
+nav {
+    margin-left: 20px; /* Adjust the space between the logo and the "Program" link */
+}
+
+.Program {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2em;
+}

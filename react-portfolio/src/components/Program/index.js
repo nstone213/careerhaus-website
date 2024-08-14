@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.scss';
 import { CardRow } from '../AlumniCard/CardRow';
+import Loader from 'react-loaders';
 import Nicholas_Stone from '../AlumniCard/AlumniPhotos/Nicholas_Stone_image.jpeg';
 import Aabha_Muley from '../AlumniCard/AlumniPhotos/AabhaMuley.png';
 import Ravnoor_Gujral from '../AlumniCard/AlumniPhotos/RavnoorGujral.png';
@@ -193,6 +194,7 @@ const Program = () => {
                   <CardRow cards={cohort7Cards} />
                 </div>
             </div>
+            <Loader type="line-scale-pulse-out" />
         </>
     );
 };
