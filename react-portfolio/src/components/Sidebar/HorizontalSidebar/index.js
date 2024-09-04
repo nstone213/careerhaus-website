@@ -10,6 +10,12 @@ const Sidebar = () => (
         <nav>
             <Link className="Program" to="program">Program</Link>
         </nav>
+        <nav>
+            <Link className="About" to="about">About</Link>
+        </nav>
+        <nav>
+            <Link className="Contact" to="contact">Contact</Link>
+        </nav>
     </div>
 );
 
